@@ -15,7 +15,7 @@ export const authReducer = ( state, action ) =>
         case "LOGOUT":
             return {
                 ...state,
-                isLoggedIn: false,
+                // isLoggedIn: false,
                 user: null
             };
         default:
