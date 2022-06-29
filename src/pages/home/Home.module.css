@@ -90,6 +90,13 @@
     font-size: 1.6rem;
 }
 
+.transactions .date {
+    margin-left: auto;
+    margin-right: 80px;
+    color: rgb(186, 186, 186);
+    font-size: 0.8rem;
+}
+
 .transactions button {
     position: absolute;
     top: 0;
