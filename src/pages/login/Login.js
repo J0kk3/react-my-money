@@ -30,7 +30,7 @@ export default function Login ()
                 <span>Password:</span>
                 <input
                     type="password"
-                    onchange={ ( e ) => setPassword( e.target.value ) }
+                    onChange={ ( e ) => setPassword( e.target.value ) }
                     value={ password }
                 />
             </label>
